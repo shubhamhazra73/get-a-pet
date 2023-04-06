@@ -1,0 +1,60 @@
+.here{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.here2,#singleDog{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     border-bottom: solid black 2px;
+    margin-top: 30px;
+    opacity: 0.9;
+}
+
+input{
+    border-radius: 30px;
+    border: solid  1px;
+    background-color: rgb(214, 212, 212);
+    margin: 20px;
+    
+    padding: 10px 20px;
+    text-align: center;
+}
+
+img{
+    border-radius: 10%;
+    border: 2px solid white;
+    border-spacing: 2px;
+}
+
+body{ 
+      background-attachment: fixed ;
+    background-repeat: no-repeat ;
+    background-size:  cover ;
+    /* background-size: auto; */
+    opacity: 1 ;
+    background-image: url('https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') ;
+   
+}
+
+h3,p{
+ color: black;
+    text-decoration: underline black;
+    font-size: 25px;
+   
+}
+p{
+       color: blue;
+       font-style: italic;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.here2:hover{
+    opacity: 1;
+    background-color: rgba(167, 174, 171, 0.2)
+}
